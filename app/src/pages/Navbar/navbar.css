@@ -1,0 +1,58 @@
+.header {
+  background: #181511;
+}
+.logo {
+  margin: 20px 0px;
+  padding-top: -5px;
+}
+.logo img {
+  margin-top: -7px;
+  margin-right: 30px;
+}
+.navbar-nav li {
+    margin: 5px 0px;
+}
+.navbar-nav li a {
+  font-family: "Old Standard TT";
+  text-decoration: none;
+  color: #aca592;
+  margin-right:  30px;
+  transition: all 0.5s;
+  
+}
+.navbar-nav li a:hover {
+  color: #ffae2b;
+}
+.nav-btn {
+  padding: 13px 20px;  
+  font-family: "Old Standard TT";
+  border: 1px solid #ffae2b;
+  background-color: #181511;
+  color: #FFAE2B; 
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.nav-btn:hover {
+   background-color: #FFAE2B;       
+   color: #181511; 
+   box-shadow: 0px 0px 20px #FFAE2B;
+}
+.navbar-toggler {
+    color: #FFAE2B;
+    outline: none;
+}
+
+
+@media screen and (max-width: 980px){
+    
+    .d-lex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-btn {
+        padding: 10px 60px;  
+        margin-bottom: 10px;
+    }
+}
