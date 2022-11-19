@@ -28,7 +28,7 @@ const Navbar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span><i class="fa-solid fa-bars"></i></span>
+              <span><i className="fa-solid fa-bars"></i></span>
             </button>
 
 
