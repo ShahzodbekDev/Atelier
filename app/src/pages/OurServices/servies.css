@@ -1,12 +1,12 @@
-/* Thead start */
-.thead {
+.ourhead {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
 }
-.thead h4 {
+.ourhead h4 {
   font-family: "Old Standard TT";
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,7 @@
   text-transform: uppercase;
   color: #ffae2b;
 }
-.thead h1 {
+.ourhead h1 {
   font-family: "Old Standard TT";
   font-style: normal;
   font-weight: 400;
@@ -26,87 +26,71 @@
   letter-spacing: 1px;
   color: #ffffff;
 }
-
-/* Tpage item */
-.tpage_item {
-  padding-top: 80px;
-  padding-bottom: 70px;
+.ourcard {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 90px;
 }
-
-.card1 {
-  height: 315px;
-  width: 387px;
-  border: 1px solid #4b4136;
+.sercard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  transition: all 0.5s;
-  margin: 5px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1;
+  padding: 60px;
+  border: 1px solid #4B4136;
 }
-.card1 h4 {
+.rotet {
+    transition: all 0.7s;
+}
+.sercard:hover .rotet {
+    transform: rotate(360deg);
+}
+.sercard h3 {
   font-family: "Old Standard TT";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 23px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ffffff;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffae2b;
+  margin-top: 20px;
 }
-.hover-rgb {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.sercard h5 {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #ACA592; 
 }
-.hover-rgb i {
-    
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    display: none;
-    transition: all 0.5s;
-}
-.hover-rgb:hover i {
-  display: block;
-}
-.card1:hover  .hover-rgb  {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: rgba(55, 57, 54, 0.6);
-}
+
 
 
 /* Responsive  */
 @media screen and (max-width: 1024px) {
-  .thead {
+  .ourhead {
     padding-top: 100px;
     padding-bottom: 190px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 10px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 62px;
   }
 }
 @media screen and (max-width: 992px) {
-  .thead {
+  .ourhead {
     padding-top: 60px;
     padding-bottom: 140px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 8px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 52px;
     line-height: 60px;
   }
@@ -115,112 +99,64 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .thead {
+  .ourhead {
     padding-top: 40px;
     padding-bottom: 100px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 6px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 42px;
   }
- .card1 {
-  
-    height: 298px;
-    width: 367px;
-    
- }
-  .card1 h4 {
-    
-    font-weight: 400;
-    font-size: 9px;
-    
-  }
- }
+}
 @media screen and (max-width: 576px) {
-  .thead {
+  .ourhead {
     padding-top: 30px;
     padding-bottom: 70px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 6px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 30px;
     line-height: 40px;
   }
-  .card1 {
-  
-    height: 268px;
-    width: 357px;
-    
- }
-  .card1 h4 {
-    font-weight: 400;
-    font-size: 9px;
-    
-  }
-  .card1 img {
-    width: 335px;
-
-  }
 }
 @media screen and (max-width: 400px) {
-  .thead {
+  .ourhead {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 4px;
     line-height: 1px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 25px;
     line-height: 30px;
   }
-  .card1 {
-  
-    height: 228px;
-    width: 285px;
-    
- }
-  .card1 h4 {
-    
-    font-weight: 400;
-    font-size: 9px;
-    
+  .rotet {
+    width: 35px;
   }
-  .card1 img {
-    width: 230px;
+  .sercard {
+    padding: 30px;
+  }
+  .sercard h3 {
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 320px) {
-  .thead {
+  .ourhead {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .thead h4 {
+  .ourhead h4 {
     font-size: 2px;
     line-height: 1px;
   }
-  .thead h1 {
+  .ourhead h1 {
     font-size: 15px;
     line-height: 20px;
-  }
-  .card1 {
-  
-    height: 190px;
-    width: 235px;
-    
- }
-  .card1 h4 {
-    
-    font-weight: 400;
-    font-size: 9px;
-    
-  }
-  .card1 img {
-    width: 200px;
   }
 }
