@@ -1,0 +1,43 @@
+.footnav{
+    border-top: 1px solid #4B4136 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+.footnav h5 {
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #ACA592;
+}
+.footnav span {
+    color: #FFAE2B;
+}
+.col-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.col-right h5 {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 320px) {
+    .footnav{
+        border-top: 1px solid #4B4136 ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        flex-wrap: wrap;
+    }
+}

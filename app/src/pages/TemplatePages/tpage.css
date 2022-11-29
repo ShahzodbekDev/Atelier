@@ -14,7 +14,7 @@
   line-height: 22px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ffae2b;
+  color: #aca592;
 }
 .thead h1 {
   font-family: "Old Standard TT";
@@ -24,7 +24,7 @@
   line-height: 80px;
   text-align: center;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #ffae2b;
 }
 
 /* Tpage item */
@@ -206,21 +206,25 @@
   }
   .thead h1 {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 10px;
+  
+  }
+  .tpage_item {
+    padding-top: 30px;
   }
   .card1 {
   
-    height: 190px;
-    width: 235px;
+    height: 130px;
+    width: 175px;
     
  }
   .card1 h4 {
     
     font-weight: 400;
-    font-size: 9px;
+    font-size: 6px;
     
   }
   .card1 img {
-    width: 200px;
+    width: 140px;
   }
 }

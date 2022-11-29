@@ -1,0 +1,175 @@
+.newhead {
+  padding-top: 90px;
+  text-align: center;
+}
+.newhead h4 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  color: #aca592;
+  margin-top: 30px;
+}
+.newhead h1 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  color: #ffae2b;
+}
+.beebloc {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.beebloc .bloc1 {
+  width: 420px;
+  height: 59px;
+  border: 1px solid #4b4136;
+}
+.beebloc .bgcol {
+  background: #ffae2b;
+}
+.beebloc h4 {
+    font-family: "Old Standard TT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #aca592;
+    margin-top: 30px; 
+    text-align: center;
+}
+.metaicon {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.metaicon i {
+    font-size: 30px;
+    margin: 4px 13px;
+    border: 1px solid #4B4136;
+    padding: 12px;
+    color: #ffffff;
+    transition: all 0.5s ease ;
+    cursor: pointer;
+
+}
+.metaicon i:hover {
+    color: #ffae2b;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .newhead h4 {
+    font-size: 10px;
+  }
+  .beebloc h4 {
+    font-size: 10px;
+  }
+  .newhead h1 {
+    font-size: 62px;
+  }
+  .beebloc .bloc1 {
+    width: 410px;
+    height: 49px;
+    
+  }
+}
+@media screen and (max-width: 992px) {
+  .newhead h4 {
+    font-size: 8px;
+  }
+  .beebloc h4 {
+    font-size: 8px;
+  }
+  .newhead h1 {
+    font-size: 52px;
+    
+  }
+  .beebloc .bloc1 {
+    width: 400px;
+    height: 39px;
+    
+  }
+}
+@media screen and (max-width: 768px) {
+  .newhead h4 {
+    font-size: 6px;
+  }
+  .beebloc h4 {
+    font-size: 6px;
+    line-height: 15px;
+  }
+  .newhead h1 {
+    font-size: 42px;
+  }
+  .beebloc {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .newhead {
+  padding-top: 60px;
+
+    }
+  
+    .newhead h4 {
+    font-size: 6px;
+  }
+  .beebloc h4 {
+    font-size: 6px;
+  }
+  .newhead h1 {
+    font-size: 30px;
+    
+  }.beebloc .bloc1 {
+    width: 390px;
+    height: 29px;
+    
+  }
+  .metaicon i {
+    font-size: 15px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .newhead h4 {
+    font-size: 4px;
+  margin-top: 10px;
+    
+  }
+  .beebloc h4 {
+    font-size: 4px;
+  }
+  .newhead h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .beebloc .bloc1 {
+    width: 270px;
+    height: 29px;
+    
+  }
+}
+@media screen and (max-width: 320px) {
+  .newhead {
+    padding-top: 45px;
+  }
+    .newhead h4 {
+    font-size: 2px;
+    
+  }
+  .newhead h1 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .beebloc .bloc1 {
+    width: 200px;
+    height: 19px;
+    
+  }
+}

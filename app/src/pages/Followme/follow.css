@@ -1,0 +1,26 @@
+.insta_blog {
+  border-top: 1px solid #4b4136;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.insta_blog img {
+  margin-top: -10px;
+  width: 220px;
+  height: 258px;
+}
+.insta_blog .insta_logo {
+  width: 260px;
+  height: 210px;
+}
+
+@media screen and (max-width: 320px) {
+    .insta_blog img {
+        margin-top: -10px;
+        width: 180px;
+        height: 228px;
+      }
+    
+}
